@@ -1,0 +1,6 @@
+Conclusiones:
+
+- Se presenta algunos  problemas ala hora de instalar la libreria de xpath
+- En funciona de la automatizacion repasamos temas como:
+  - Instalacion de cucumber y xpath como agregacion al desarrollo del proyecto
+  - Trabajamos orientados en 3 capas fundamentales "feature, stepDefinitios y page" trabajando con el patron de diseño POM.
