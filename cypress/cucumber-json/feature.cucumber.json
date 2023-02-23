@@ -1,0 +1,67 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "test",
+    "line": 1,
+    "id": "test",
+    "tags": [],
+    "uri": "feature.feature",
+    "elements": [
+      {
+        "id": "test;buy-products-on-the-page-saucedemo",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "buy products on the page saucedemo",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 2
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am logged into the shopping site",
+            "result": {
+              "status": "passed",
+              "duration": 1123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I select one or more items",
+            "result": {
+              "status": "passed",
+              "duration": 408000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I add them to the shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 1515000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "process to make the purchase of the selected items correctly",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

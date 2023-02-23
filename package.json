@@ -1,0 +1,32 @@
+{
+  "name": "pruebatecnicaapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-tags": "^1.1.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "commonPath": "cypress/integration/",
+    "stepDefinitions": "cypress/integration/",
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.2.0"
+  }
+}
